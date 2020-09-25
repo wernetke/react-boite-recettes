@@ -7,7 +7,7 @@ const Header = ({ pseudo }) => {
 
     return (
         <header>
-            <h1>La boite de {formatPseudo(pseudo)}</h1>
+            <h1>La boîte {formatPseudo(pseudo)}</h1>
         </header>
     );
 };
